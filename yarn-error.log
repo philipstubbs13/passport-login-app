@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\phili\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcryptjs body-parser connect-flash cookie-parser express express-handlebars express-messages express-sessionexpress-validator mongodb mongoose passport passport-http passport-local
+
+PATH: 
+  C:\Users\phili\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\phili\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\phili\AppData\Local\Microsoft\WindowsApps;C:\Users\phili\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-sessionexpress-validator: Not found
+      at Request.params.callback [as _callback] (C:\Users\phili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:65656:18)
+      at Request.self.callback (C:\Users\phili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:134675:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\phili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:135658:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\phili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:135578:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "passport-login-app",
+    "version": "1.0.0",
+    "description": "Simple authentication system",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/philipstubbs13/passport-login-app.git"
+    },
+    "author": "Phil Stubbs",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/philipstubbs13/passport-login-app/issues"
+    },
+    "homepage": "https://github.com/philipstubbs13/passport-login-app#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
